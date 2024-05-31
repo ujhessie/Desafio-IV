@@ -7,6 +7,7 @@ function App() {
       <br />
       <h3>Participantes:</h3>
       <p>Jesse rodrigues</p>
+      <p>Carlos Adriano</p>
     </>
   );
 }
