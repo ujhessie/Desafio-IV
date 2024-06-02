@@ -1,7 +1,11 @@
+import { Header } from "./../../components/Header/Header";
+import { Sec_Inicio } from "./components/Sec_Inicio/Sec_Inicio";
+
 export const HomePage = () => {
   return (
     <div>
-      <h1>Página inicial</h1>
+      <Header />
+      <Sec_Inicio />
     </div>
   );
 };
