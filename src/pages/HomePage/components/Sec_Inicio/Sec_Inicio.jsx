@@ -22,6 +22,7 @@ export const Sec_Inicio = () => {
             </div>
 
             < Button />
+            
             <div className='logins'>
               <a href='#' className='google'>
                 ENTRAR COM GOOGLE
