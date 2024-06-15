@@ -35,6 +35,7 @@
     .div-botao {
       display: flex;
       justify-content: center;
+      margin-bottom: 32px;
     }
 
     .botao {
@@ -46,13 +47,48 @@
       font-weight: 600;
       margin: 0 auto;
       /* white-space: nowrap; */
-      
 
       .circle {
         aspect-ratio: 1/1;
         height: 100%;
         background-color: white;
       }
+    }
+
+    .logins {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 40px;
+      a {
+        padding: 8px 16px;
+        display: block;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+
+      a.google {
+        background-color: white;
+        color: black;
+      }
+
+      a.facebook {
+        background-color: #3b5998;
+        color: white;
+      }
+    }
+
+    .logo-2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .text {
+      text-align: justify;
+      opacity: 0.8;
+      margin-bottom: 20px;
     }
   }
 }
