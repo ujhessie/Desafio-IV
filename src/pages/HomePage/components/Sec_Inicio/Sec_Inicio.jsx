@@ -1,6 +1,7 @@
 import { Header } from "../../../../components/Header/Header";
 import "./sec_Inicio.css";
 import { MaxContainer } from "./../../../../components/MaxContainer/MaxContainer";
+import  Button  from "../../../../components/Button/Button";
 
 export const Sec_Inicio = () => {
   return (
@@ -20,12 +21,7 @@ export const Sec_Inicio = () => {
               <div>Apoie</div>
             </div>
 
-            <div className='div-botao'>
-              <a href='#' className='botao'>
-                
-                <p>CADASTRE-SE</p>
-              </a>
-            </div>
+            < Button />
           </div>
         </MaxContainer>
       </section>
