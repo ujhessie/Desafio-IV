@@ -1,3 +1,4 @@
+import { Sec_ContextoSocial } from "./components/Sec_ContextoSocial/Sec_ContextoSocial";
 import { Sec_Inicio } from "./components/Sec_Inicio/Sec_Inicio";
 import { Sec_sobre } from "./components/Sec_Sobre/Sec_sobre";
 import { Sec_Video } from "./components/Sec_Video/Sec_Video";
@@ -9,6 +10,7 @@ export const HomePage = () => {
       <Sec_Inicio />
       <Sec_sobre />
       <Sec_Video/>
+      <Sec_ContextoSocial/>
     </div>
   );
 };
