@@ -1,6 +1,7 @@
 import Button from "../../../../components/Button/Button";
 import { MaxContainer } from "../../../../components/MaxContainer/MaxContainer";
 import "./sec_sobre.css"
+import imgCidade from "../../../../assets/cidade.jpeg";
 
 export const Sec_sobre = () => {
   const Textos = () => {
@@ -30,7 +31,7 @@ export const Sec_sobre = () => {
   const ImagemJogo = () => {
     return (
       <div className='imagem-jogo'>
-        {/* <img src='https://i.ibb.co/052222T/imagem-jogo.png' alt='imagem-jogo' /> */}
+        <img src={imgCidade} alt='imagem-jogo' /> 
       </div>
     );
   };

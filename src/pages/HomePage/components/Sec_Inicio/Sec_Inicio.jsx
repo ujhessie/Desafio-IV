@@ -6,6 +6,7 @@ import { ImagemJogo } from "./components/ImagemJogo";
 import { ChamadasParaAcao } from "./components/ChamadasParaAcao";
 import { Logins } from "./components/Logins";
 
+
 export const Sec_Inicio = () => {
   const Textos = () => {
     return (
