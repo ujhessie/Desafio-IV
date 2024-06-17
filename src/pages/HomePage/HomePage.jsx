@@ -1,3 +1,4 @@
+import { Sec_Cadastro_Login } from "./components/Sec_Cadastro_Login/Sec_Cadastro_Login";
 import { Sec_ContextoSocial } from "./components/Sec_ContextoSocial/Sec_ContextoSocial";
 import { Sec_Inicio } from "./components/Sec_Inicio/Sec_Inicio";
 import { Sec_PerguntasFrequentes } from "./components/Sec_PerguntasFrequentes/Sec_PerguntasFrequentes";
@@ -13,6 +14,7 @@ export const HomePage = () => {
       <Sec_Video/>
       <Sec_ContextoSocial/>
       <Sec_PerguntasFrequentes/>
+      <Sec_Cadastro_Login/>
     </div>
   );
 };

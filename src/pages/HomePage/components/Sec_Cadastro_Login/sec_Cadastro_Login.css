@@ -1,0 +1,34 @@
+#sec-cadastro-login {
+  padding: 100px 20px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+
+    .div-inputs {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 32px;
+
+      .input {
+        padding: 16px 32px;
+        border: 1px solid rgb(147, 197, 147);
+        width: 100%;
+      }
+    }
+
+    .texto {
+      a {
+        color: rgb(147, 197, 147);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .div-inputs {
+    flex-direction: column;
+  }
+}
