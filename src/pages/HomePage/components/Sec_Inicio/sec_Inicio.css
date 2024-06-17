@@ -5,16 +5,19 @@
   position: relative;
   color: white;
 
-  /* .img-bg-inicio {
-    position: absolute;
-    height: 70%;
-    right: 0;
-    bottom: 0;
-  } */
-
   .content-sec-inicio {
     text-align: start;
-    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    .div-textos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
 
     .subtitulo {
       font-size: 20px;
@@ -89,6 +92,25 @@
       text-align: justify;
       opacity: 0.8;
       margin-bottom: 20px;
+    }
+
+    .div-img {
+      width: 100%;
+      height: 100%;
+      background-color: #151515;
+      
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-section {
+    .content-sec-inicio {
+      grid-template-columns: 1fr;
+    }
+
+    .div-img {
+      aspect-ratio: 4/3;
     }
   }
 }
