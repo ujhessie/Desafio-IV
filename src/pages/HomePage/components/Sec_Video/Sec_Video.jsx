@@ -15,16 +15,18 @@ export const Sec_Video = () => {
               como você pode fazer a diferença, apoiando causas nobres e se
               tornando um verdadeiro herói do cotidiano
             </p>
-            <iframe
-              width='560'
-              height='315'
-              src='https://www.youtube.com/embed/Ba-3gSzT83w?si=OuK2yUwr_Kp7t_Fo'
-              title='YouTube video player'
-              //   frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              referrerPolicy='strict-origin-when-cross-origin'
-              allowfullscreen
-            ></iframe>
+            <div className="div-video">
+              <iframe
+                width='100%'
+                height='100%'
+                src='https://www.youtube.com/embed/Ba-3gSzT83w?si=OuK2yUwr_Kp7t_Fo'
+                title='YouTube video player'
+                //   frameborder='0'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                referrerPolicy='strict-origin-when-cross-origin'
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </MaxContainer>
       </section>

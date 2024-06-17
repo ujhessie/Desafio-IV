@@ -1,7 +1,7 @@
 #sec-sobre {
   width: 100%;
   background: linear-gradient(90deg, #39147b, #110229, #7b54af);
-  padding: 100px 20px;
+  padding: 100px 0px;
 
   .content {
     display: grid;

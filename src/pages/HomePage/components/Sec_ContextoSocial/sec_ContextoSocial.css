@@ -1,5 +1,5 @@
 #sec-contextoSocial {
-  padding: 100px 20px 0px 20px;
+  padding: 100px 0px 0px 0px;
   .content {
     display: flex;
     flex-direction: column;
@@ -7,7 +7,6 @@
     color: #333f71;
     text-align: justify;
 
-    
     h2 {
       color: #333f71;
       display: block;
