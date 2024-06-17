@@ -1,0 +1,23 @@
+#sec-video {
+  width: 100%;
+  padding: 100px 20px;
+  background-color: #acadaf;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    h2 {
+        font-size: 42px;
+        color: white;
+    }
+
+    p {
+        color: #333f71;
+        font-size: 20px;
+        text-align: justify;
+    }
+  }
+}
