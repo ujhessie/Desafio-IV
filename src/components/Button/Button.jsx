@@ -1,14 +1,11 @@
 import "./button.css";
 
-function Button() {
-    return (
-        <div className='div-botao'>
-        <a href='#' className='botao'>
-          
-          <p>CADASTRE-SE</p>
-        </a>
-      </div>
-    )
+const Button = ({ botao }) => {
+  return (
+    <div className='div-botao'>
+      <button className="botao" type='submit'>{botao}</button>
+    </div>
+  );
 }
 
 export default Button;

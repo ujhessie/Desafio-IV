@@ -17,7 +17,7 @@ export const Sec_Inicio = () => {
           humanitárias.
         </p>
         <ChamadasParaAcao />
-        <Button />
+        <Button botao="CADASTRAR"/>
         <Logins />
       </div>
     );
