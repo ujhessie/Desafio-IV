@@ -115,6 +115,13 @@
   #hero-section {
     .content-sec-inicio {
       grid-template-columns: 1fr;
+
+      .logins{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
     }
 
     .div-img {

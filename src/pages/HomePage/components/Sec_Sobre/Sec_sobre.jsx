@@ -23,7 +23,7 @@ export const Sec_sobre = () => {
           cotidiano!
         </p>
 
-        <Button botao="CADASTRAR"/>
+        <Button botao="CADASTRE-SE"/>
       </div>
     );
   };
