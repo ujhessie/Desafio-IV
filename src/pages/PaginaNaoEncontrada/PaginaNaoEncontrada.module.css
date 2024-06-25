@@ -1,7 +1,7 @@
 .conteudoContainer {
     position: relative;
     text-align: center;
-    background-color: #39147b;
+    background: linear-gradient(90deg, #39147b, #110229, #7b54af);
     color: #fff;
     padding: 0 1.5rem 6.5rem;
 }
