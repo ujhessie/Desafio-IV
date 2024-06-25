@@ -11,7 +11,7 @@ function App() {
       <Routes>
         {!logado&&<Route path="/" element={<HomePage />} />}
         {logado &&<Route path="/" element={<Dashboard />} />}
-        {/* <Route path="*" element={<h1>Página não encontrada</h1>} /> */}
+        <Route path="*" element={<h1>Página não encontrada</h1>} />
       </Routes>
     </BrowserRouter>
     </>

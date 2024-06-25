@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import { useNavigate } from "react-router-dom"; // Para redirecionar após login
 import "./sec_Cadastro_Login.css";
 import { MaxContainer } from "./../../../../components/MaxContainer/MaxContainer";
 import Button from "../../../../components/Button/Button";
@@ -10,17 +9,17 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 export const Sec_Cadastro_Login = () => {
   const [loginError, setLoginError] = useState('');
   const [registerError, setRegisterError] = useState('');
-  // const history = useNavigate();
+
 
   const handleClickLogin = (values) => {
-    Axios.post("http://localhost:3001/login", {
+    Axios.post("https://teste-back-9wlt.vercel.app/login", {
       email: values.email,
       password: values.password,
     }).then((response) => {
       if (response.data.msg === "Usuário logado com sucesso") {
-        localStorage.setItem("authenticated", "true"); // Armazena o estado de autenticação
+        localStorage.setItem("authenticated", "true"); 
         alert('Logado com sucesso')
-        window.location.reload(); // Redireciona para a página protegida
+        window.location.reload(); 
       } else {
         setLoginError(response.data.msg);
       }
@@ -29,7 +28,7 @@ export const Sec_Cadastro_Login = () => {
 
 
   const handleClickRegister = (values) => {
-    Axios.post("http://localhost:3001/register", {
+    Axios.post("https://teste-back-9wlt.vercel.app/register", {
       email: values.email,
       password: values.password,
     }).then((response) => {
