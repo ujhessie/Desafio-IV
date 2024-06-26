@@ -133,7 +133,7 @@ export const Sec_Cadastro_Login = () => {
               <p className='texto'>
                 Esqueceu a senha? Clique <a href=''>aqui</a>
               </p>
-              <Button botao="LOGIN" />
+              <Button botao="LOGIN" rota="https://mui-csplays.itch.io/codificando-uma-causa" />
             </Form>
           </Formik>
         </div>

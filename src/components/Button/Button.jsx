@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import "./button.css";
 
-const Button = ({ botao }) => {
+const Button = ({ botao, rota }) => {
   return (
     <div className='div-botao'>
-      <button className="botao" type='submit'>{botao}</button>
+      <a className="botao" type='submit'href={rota} >{botao}</a>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export const Sec_Inicio = () => {
           humanitárias.
         </p>
         <ChamadasParaAcao />
-        <Button botao="CADASTRAR"/>
+        <Button botao="CADASTRAR" rota="/#sec-cadastro-login"/>
         <Logins />
       </div>
     );
